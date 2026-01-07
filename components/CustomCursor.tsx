@@ -27,18 +27,18 @@ export default function CustomCursor() {
   useEffect(() => {
     if (isMobile) return
 
-    const updateMousePosition = (e) => {
+    const updateMousePosition = (e: { clientX: any; clientY: any }) => {
       setMousePosition({ x: e.clientX, y: e.clientY })
     }
 
-    const handleMouseOver = (e) => {
+    const handleMouseOver = (e: { target: any }) => {
       const target = e.target
       if (target.closest("button, a, [role='button']")) {
         setIsHovering(true)
       }
     }
 
-    const handleMouseOut = (e) => {
+    const handleMouseOut = (e: { target: any }) => {
       const target = e.target
       if (target.closest("button, a, [role='button']")) {
         setIsHovering(false)

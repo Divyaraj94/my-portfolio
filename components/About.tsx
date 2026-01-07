@@ -44,7 +44,7 @@ export default function About({
     { icon: Zap, label: "Experience", value: "6 months" },
     { icon: Heart, label: "Happy Clients", value: "2" },
   ],
-  profileImage = "/profile.jpeg",
+  profileImage = "/profile.png",
 }: AboutProps) {
   const reduceMotion = useReducedMotion();
 
