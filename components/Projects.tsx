@@ -19,12 +19,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "...",
-    image: "/images/portfolio.webp",
-    liveUrl: "...",
-    githubUrl: "...",
-    tags: ["React", "Framer Motion"],
+    title: "E-Commerce Website",
+    description: "Website is a fully functional e-commerce platform that allows users to browse and purchase products. Still under Develoment some ages and backend connections",
+    image: "/project2.png",
+    liveUrl: "https://project-2-sweets.netlify.app/",
+    githubUrl: "https://github.com/Divyaraj94/E-Commerse",
+    tags: ["React","Node.js","Express"],
     category: "Web", // ✅ Added
   },
   {
