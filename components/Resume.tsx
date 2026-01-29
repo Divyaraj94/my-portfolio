@@ -90,7 +90,7 @@ export default function Resume() {
             
           </motion.button>
 
-          <p className="text-sm text-gray-500 mt-4">PDF • 97 kb • Last updated: October 2025</p>
+          <p className="text-sm text-gray-500 mt-4">PDF • 97 kb • Last updated: December 2025</p>
         </motion.div>
       </div>
     </section>
