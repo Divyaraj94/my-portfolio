@@ -22,7 +22,7 @@ interface HeroProps {
 export default function Hero({
   name = "Divyaraj",
   subtitle = "I build web experiences that feel like magic",
-  description = "Frontend developer passionate about creating innovative digital solutions that push the boundaries of what's possible on the web.",
+  description = "AI Automation & Frontend Developer passionate about building agentic systems and intelligent web experiences.",
   ctas = [
     {
       label: "Explore My Work",

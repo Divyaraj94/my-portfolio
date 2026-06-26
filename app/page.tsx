@@ -10,7 +10,6 @@ import Projects from "@/components/Projects"
 import Resume from "@/components/Resume"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
-import CustomCursor from "@/components/CustomCursor"
 import AnimatedBackground from "@/components/AnimatedBackground"
 import GeometricBackground from "@/components/GeometricBackground"
 import MatrixBackground from "@/components/MatrixBackground"
@@ -33,8 +32,6 @@ export default function Portfolio() {
       <AnimatedBackground />
       <GeometricBackground />
       {/* <MatrixBackground /> */}
-
-      <CustomCursor />
 
       <AnimatePresence mode="wait">
         {isLoading ? (

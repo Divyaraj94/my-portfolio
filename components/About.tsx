@@ -24,11 +24,11 @@ interface AboutProps {
 
 export default function About({
   bio = [
-    "I’m a curious techie exploring web development and design.",
-    "I enjoy building clean, interactive sites and testing how AI can boost creativity and productivity.",
-    "When I'm not coding, you'll find me exploring new technologies or enjoying a good cup of coffee while brainstorming."
+    "I'm a developer who builds agentic AI systems and full-stack web apps.",
+    "I work with MCP, n8n, LLM APIs, and React/Next.js to create intelligent, end-to-end solutions.",
+    "When I'm not coding, I'm exploring what's next in AI automation."
   ],
-  technologies = ["UI/UX", "React", "C", "Node.js", "Python", "MongoDB", "Prompt Engineering"],
+  technologies = ["UI/UX", "React", "Node.js", "Python", "MongoDB", "Prompt Engineering", "MCP", "n8n", "A2A", "LLM APIs", "TypeScript", "Next.js"],
   tools = [
     { name: "VS Code", icon: "/vs-logo.svg" },
     { name: "Figma", icon: "/figma-logo.svg" },
@@ -37,6 +37,8 @@ export default function About({
     { name: "Android Studio", icon: "/studio-logo.svg" },
     { name: "Anaconda", icon: "/python-logo.svg" },
     { name: "VMWare", icon: "/linux-logo.png" },
+    { name: "n8n", icon: "/n8n-logo.svg" },
+    { name: "Postman", icon: "/postman-logo.svg" },
   ],
   stats = [
     { icon: Code, label: "Projects", value: "1+" },
